@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		510775831AE9EF0A0072A913 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5107757B1AE9EF0A0072A913 /* AppDelegate.m */; };
+		510775841AE9EF0A0072A913 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5107757C1AE9EF0A0072A913 /* main.m */; };
+		510775851AE9EF0A0072A913 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5107757F1AE9EF0A0072A913 /* UIView+Extension.m */; };
+		5116BAA41B6C78DC006548E9 /* WBOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5116BAA31B6C78DC006548E9 /* WBOAuthViewController.m */; };
+		512772A31B6CEE3B00B0E15C /* WBAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 512772A21B6CEE3B00B0E15C /* WBAccount.m */; };
+		512772A61B6CF49200B0E15C /* WBAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 512772A51B6CF49200B0E15C /* WBAccountManager.m */; };
+		5179C25E1AEB823100DDD499 /* WBProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5179C25D1AEB823100DDD499 /* WBProfileViewController.m */; };
+		5179C2611AEB8AA800DDD499 /* WBDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5179C2601AEB8AA800DDD499 /* WBDiscoverViewController.m */; };
+		5179C2641AEBC6BE00DDD499 /* WBSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5179C2631AEBC6BE00DDD499 /* WBSearchBar.m */; };
+		517E4B6A1AEA7E5800E88344 /* WBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 517E4B671AEA7E5800E88344 /* WBNavigationController.m */; };
+		517E4B6B1AEA7E5800E88344 /* WBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 517E4B691AEA7E5800E88344 /* WBTabBarController.m */; };
+		517E4B6E1AEA7E9100E88344 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 517E4B6D1AEA7E9100E88344 /* UIBarButtonItem+Extension.m */; };
+		517E4B781AEA829A00E88344 /* WBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 517E4B761AEA829A00E88344 /* WBHomeViewController.m */; };
+		517E4B791AEA829A00E88344 /* WBHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 517E4B771AEA829A00E88344 /* WBHomeViewController.xib */; };
+		51E547D21AE8ED56003B534C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E547D11AE8ED56003B534C /* Images.xcassets */; };
+		51E547D51AE8ED56003B534C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51E547D31AE8ED56003B534C /* LaunchScreen.xib */; };
+		51E547E11AE8ED57003B534C /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E547E01AE8ED57003B534C /* __Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51E547DB1AE8ED57003B534C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51E547B91AE8ED56003B534C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51E547C01AE8ED56003B534C;
+			remoteInfo = "微博";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5107757A1AE9EF0A0072A913 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5107757B1AE9EF0A0072A913 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5107757C1AE9EF0A0072A913 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5107757E1AE9EF0A0072A913 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		5107757F1AE9EF0A0072A913 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		5116BAA21B6C78DC006548E9 /* WBOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBOAuthViewController.h; sourceTree = "<group>"; };
+		5116BAA31B6C78DC006548E9 /* WBOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBOAuthViewController.m; sourceTree = "<group>"; };
+		512772A11B6CEE3B00B0E15C /* WBAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAccount.h; sourceTree = "<group>"; };
+		512772A21B6CEE3B00B0E15C /* WBAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBAccount.m; sourceTree = "<group>"; };
+		512772A41B6CF49200B0E15C /* WBAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAccountManager.h; sourceTree = "<group>"; };
+		512772A51B6CF49200B0E15C /* WBAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBAccountManager.m; sourceTree = "<group>"; };
+		5179C25C1AEB823100DDD499 /* WBProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBProfileViewController.h; sourceTree = "<group>"; };
+		5179C25D1AEB823100DDD499 /* WBProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBProfileViewController.m; sourceTree = "<group>"; };
+		5179C25F1AEB8AA800DDD499 /* WBDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBDiscoverViewController.h; sourceTree = "<group>"; };
+		5179C2601AEB8AA800DDD499 /* WBDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBDiscoverViewController.m; sourceTree = "<group>"; };
+		5179C2621AEBC6BE00DDD499 /* WBSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSearchBar.h; sourceTree = "<group>"; };
+		5179C2631AEBC6BE00DDD499 /* WBSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBSearchBar.m; sourceTree = "<group>"; };
+		517E4B661AEA7E5800E88344 /* WBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WBNavigationController.h; path = Category/WBNavigationController.h; sourceTree = "<group>"; };
+		517E4B671AEA7E5800E88344 /* WBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WBNavigationController.m; path = Category/WBNavigationController.m; sourceTree = "<group>"; };
+		517E4B681AEA7E5800E88344 /* WBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WBTabBarController.h; path = Category/WBTabBarController.h; sourceTree = "<group>"; };
+		517E4B691AEA7E5800E88344 /* WBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WBTabBarController.m; path = Category/WBTabBarController.m; sourceTree = "<group>"; };
+		517E4B6C1AEA7E9100E88344 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		517E4B6D1AEA7E9100E88344 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		517E4B6F1AEA7FFF00E88344 /* weibo.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weibo.pch; sourceTree = "<group>"; };
+		517E4B751AEA829A00E88344 /* WBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHomeViewController.h; sourceTree = "<group>"; };
+		517E4B761AEA829A00E88344 /* WBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBHomeViewController.m; sourceTree = "<group>"; };
+		517E4B771AEA829A00E88344 /* WBHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBHomeViewController.xib; sourceTree = "<group>"; };
+		51E547C11AE8ED56003B534C /* 微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E547C51AE8ED56003B534C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E547D11AE8ED56003B534C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		51E547D41AE8ED56003B534C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		51E547DA1AE8ED57003B534C /* 微博Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微博Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E547DF1AE8ED57003B534C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E547E01AE8ED57003B534C /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51E547BE1AE8ED56003B534C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E547D71AE8ED57003B534C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		510775701AE9EF0A0072A913 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				512772A01B6CEE1E00B0E15C /* Util */,
+				510775711AE9EF0A0072A913 /* Controller */,
+				510775781AE9EF0A0072A913 /* Model */,
+				5107757D1AE9EF0A0072A913 /* View */,
+				510775791AE9EF0A0072A913 /* Public */,
+			);
+			name = Classes;
+			path = Classes/Classes;
+			sourceTree = "<group>";
+		};
+		510775711AE9EF0A0072A913 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5116BAA11B6C78BD006548E9 /* OAuth */,
+				517E4B721AEA825300E88344 /* Home */,
+				517E4B701AEA825300E88344 /* Add */,
+				517E4B711AEA825300E88344 /* Descover */,
+				517E4B731AEA825300E88344 /* MessageCenter */,
+				517E4B741AEA825300E88344 /* Profile */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		510775781AE9EF0A0072A913 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				512772A11B6CEE3B00B0E15C /* WBAccount.h */,
+				512772A21B6CEE3B00B0E15C /* WBAccount.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		510775791AE9EF0A0072A913 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				517E4B651AEA7E4D00E88344 /* Category */,
+				5107757A1AE9EF0A0072A913 /* AppDelegate.h */,
+				5107757B1AE9EF0A0072A913 /* AppDelegate.m */,
+				5107757C1AE9EF0A0072A913 /* main.m */,
+				517E4B661AEA7E5800E88344 /* WBNavigationController.h */,
+				517E4B671AEA7E5800E88344 /* WBNavigationController.m */,
+				517E4B681AEA7E5800E88344 /* WBTabBarController.h */,
+				517E4B691AEA7E5800E88344 /* WBTabBarController.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		5107757D1AE9EF0A0072A913 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5107757E1AE9EF0A0072A913 /* UIView+Extension.h */,
+				5107757F1AE9EF0A0072A913 /* UIView+Extension.m */,
+				5179C2621AEBC6BE00DDD499 /* WBSearchBar.h */,
+				5179C2631AEBC6BE00DDD499 /* WBSearchBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5116BAA11B6C78BD006548E9 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				5116BAA21B6C78DC006548E9 /* WBOAuthViewController.h */,
+				5116BAA31B6C78DC006548E9 /* WBOAuthViewController.m */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		512772A01B6CEE1E00B0E15C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				512772A41B6CF49200B0E15C /* WBAccountManager.h */,
+				512772A51B6CF49200B0E15C /* WBAccountManager.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		517E4B651AEA7E4D00E88344 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				517E4B6C1AEA7E9100E88344 /* UIBarButtonItem+Extension.h */,
+				517E4B6D1AEA7E9100E88344 /* UIBarButtonItem+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		517E4B701AEA825300E88344 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		517E4B711AEA825300E88344 /* Descover */ = {
+			isa = PBXGroup;
+			children = (
+				5179C25F1AEB8AA800DDD499 /* WBDiscoverViewController.h */,
+				5179C2601AEB8AA800DDD499 /* WBDiscoverViewController.m */,
+			);
+			path = Descover;
+			sourceTree = "<group>";
+		};
+		517E4B721AEA825300E88344 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				517E4B751AEA829A00E88344 /* WBHomeViewController.h */,
+				517E4B761AEA829A00E88344 /* WBHomeViewController.m */,
+				517E4B771AEA829A00E88344 /* WBHomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		517E4B731AEA825300E88344 /* MessageCenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MessageCenter;
+			sourceTree = "<group>";
+		};
+		517E4B741AEA825300E88344 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5179C25C1AEB823100DDD499 /* WBProfileViewController.h */,
+				5179C25D1AEB823100DDD499 /* WBProfileViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		51E547B81AE8ED56003B534C = {
+			isa = PBXGroup;
+			children = (
+				51E547C31AE8ED56003B534C /* 微博 */,
+				51E547DD1AE8ED57003B534C /* 微博Tests */,
+				51E547C21AE8ED56003B534C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51E547C21AE8ED56003B534C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51E547C11AE8ED56003B534C /* 微博.app */,
+				51E547DA1AE8ED57003B534C /* 微博Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51E547C31AE8ED56003B534C /* 微博 */ = {
+			isa = PBXGroup;
+			children = (
+				510775701AE9EF0A0072A913 /* Classes */,
+				51E547D11AE8ED56003B534C /* Images.xcassets */,
+				51E547D31AE8ED56003B534C /* LaunchScreen.xib */,
+				51E547C41AE8ED56003B534C /* Supporting Files */,
+			);
+			path = "微博";
+			sourceTree = "<group>";
+		};
+		51E547C41AE8ED56003B534C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51E547C51AE8ED56003B534C /* Info.plist */,
+				517E4B6F1AEA7FFF00E88344 /* weibo.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51E547DD1AE8ED57003B534C /* 微博Tests */ = {
+			isa = PBXGroup;
+			children = (
+				51E547E01AE8ED57003B534C /* __Tests.m */,
+				51E547DE1AE8ED57003B534C /* Supporting Files */,
+			);
+			path = "微博Tests";
+			sourceTree = "<group>";
+		};
+		51E547DE1AE8ED57003B534C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51E547DF1AE8ED57003B534C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51E547C01AE8ED56003B534C /* 微博 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E547E41AE8ED57003B534C /* Build configuration list for PBXNativeTarget "微博" */;
+			buildPhases = (
+				51E547BD1AE8ED56003B534C /* Sources */,
+				51E547BE1AE8ED56003B534C /* Frameworks */,
+				51E547BF1AE8ED56003B534C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "微博";
+			productName = "微博";
+			productReference = 51E547C11AE8ED56003B534C /* 微博.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51E547D91AE8ED57003B534C /* 微博Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E547E71AE8ED57003B534C /* Build configuration list for PBXNativeTarget "微博Tests" */;
+			buildPhases = (
+				51E547D61AE8ED57003B534C /* Sources */,
+				51E547D71AE8ED57003B534C /* Frameworks */,
+				51E547D81AE8ED57003B534C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51E547DC1AE8ED57003B534C /* PBXTargetDependency */,
+			);
+			name = "微博Tests";
+			productName = "微博Tests";
+			productReference = 51E547DA1AE8ED57003B534C /* 微博Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51E547B91AE8ED56003B534C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WB;
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = yangtzeu;
+				TargetAttributes = {
+					51E547C01AE8ED56003B534C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					51E547D91AE8ED57003B534C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 51E547C01AE8ED56003B534C;
+					};
+				};
+			};
+			buildConfigurationList = 51E547BC1AE8ED56003B534C /* Build configuration list for PBXProject "微博" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51E547B81AE8ED56003B534C;
+			productRefGroup = 51E547C21AE8ED56003B534C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51E547C01AE8ED56003B534C /* 微博 */,
+				51E547D91AE8ED57003B534C /* 微博Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51E547BF1AE8ED56003B534C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E547D51AE8ED56003B534C /* LaunchScreen.xib in Resources */,
+				51E547D21AE8ED56003B534C /* Images.xcassets in Resources */,
+				517E4B791AEA829A00E88344 /* WBHomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E547D81AE8ED57003B534C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51E547BD1AE8ED56003B534C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5179C2641AEBC6BE00DDD499 /* WBSearchBar.m in Sources */,
+				510775851AE9EF0A0072A913 /* UIView+Extension.m in Sources */,
+				517E4B6E1AEA7E9100E88344 /* UIBarButtonItem+Extension.m in Sources */,
+				510775841AE9EF0A0072A913 /* main.m in Sources */,
+				5179C2611AEB8AA800DDD499 /* WBDiscoverViewController.m in Sources */,
+				517E4B781AEA829A00E88344 /* WBHomeViewController.m in Sources */,
+				517E4B6B1AEA7E5800E88344 /* WBTabBarController.m in Sources */,
+				5179C25E1AEB823100DDD499 /* WBProfileViewController.m in Sources */,
+				5116BAA41B6C78DC006548E9 /* WBOAuthViewController.m in Sources */,
+				510775831AE9EF0A0072A913 /* AppDelegate.m in Sources */,
+				512772A61B6CF49200B0E15C /* WBAccountManager.m in Sources */,
+				512772A31B6CEE3B00B0E15C /* WBAccount.m in Sources */,
+				517E4B6A1AEA7E5800E88344 /* WBNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E547D61AE8ED57003B534C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E547E11AE8ED57003B534C /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51E547DC1AE8ED57003B534C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51E547C01AE8ED56003B534C /* 微博 */;
+			targetProxy = 51E547DB1AE8ED57003B534C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51E547D31AE8ED56003B534C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51E547D41AE8ED56003B534C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51E547E21AE8ED57003B534C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51E547E31AE8ED57003B534C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51E547E51AE8ED57003B534C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/微博/weibo.pch";
+				INFOPLIST_FILE = "微博/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		51E547E61AE8ED57003B534C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/微博/weibo.pch";
+				INFOPLIST_FILE = "微博/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		51E547E81AE8ED57003B534C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "微博Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微博.app/微博";
+			};
+			name = Debug;
+		};
+		51E547E91AE8ED57003B534C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "微博Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微博.app/微博";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51E547BC1AE8ED56003B534C /* Build configuration list for PBXProject "微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E547E21AE8ED57003B534C /* Debug */,
+				51E547E31AE8ED57003B534C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E547E41AE8ED57003B534C /* Build configuration list for PBXNativeTarget "微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E547E51AE8ED57003B534C /* Debug */,
+				51E547E61AE8ED57003B534C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E547E71AE8ED57003B534C /* Build configuration list for PBXNativeTarget "微博Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E547E81AE8ED57003B534C /* Debug */,
+				51E547E91AE8ED57003B534C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51E547B91AE8ED56003B534C /* Project object */;
+}
