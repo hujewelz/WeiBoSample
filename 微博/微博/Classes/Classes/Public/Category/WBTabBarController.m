@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIViewController *vc1 = [[WBHomeViewController alloc] init];
+    UIViewController *vc1 = [[WBHomeViewController alloc] initWithStyle:UITableViewStyleGrouped];
     [self addChildViewController:vc1 withTitle:@"首页" image:@"tabbar_home" andSelectedImage:@"tabbar_home_selected"];
     
     UIViewController *vc2 = [[UIViewController alloc] init];

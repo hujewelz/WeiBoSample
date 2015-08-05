@@ -13,6 +13,7 @@
 		5116BAA41B6C78DC006548E9 /* WBOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5116BAA31B6C78DC006548E9 /* WBOAuthViewController.m */; };
 		512772A31B6CEE3B00B0E15C /* WBAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 512772A21B6CEE3B00B0E15C /* WBAccount.m */; };
 		512772A61B6CF49200B0E15C /* WBAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 512772A51B6CF49200B0E15C /* WBAccountManager.m */; };
+		51429DD01B6DB620004DB912 /* WBMyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51429DCF1B6DB620004DB912 /* WBMyCell.m */; };
 		5179C25E1AEB823100DDD499 /* WBProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5179C25D1AEB823100DDD499 /* WBProfileViewController.m */; };
 		5179C2611AEB8AA800DDD499 /* WBDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5179C2601AEB8AA800DDD499 /* WBDiscoverViewController.m */; };
 		5179C2641AEBC6BE00DDD499 /* WBSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5179C2631AEBC6BE00DDD499 /* WBSearchBar.m */; };
@@ -48,6 +49,8 @@
 		512772A21B6CEE3B00B0E15C /* WBAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBAccount.m; sourceTree = "<group>"; };
 		512772A41B6CF49200B0E15C /* WBAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAccountManager.h; sourceTree = "<group>"; };
 		512772A51B6CF49200B0E15C /* WBAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBAccountManager.m; sourceTree = "<group>"; };
+		51429DCE1B6DB620004DB912 /* WBMyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBMyCell.h; sourceTree = "<group>"; };
+		51429DCF1B6DB620004DB912 /* WBMyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBMyCell.m; sourceTree = "<group>"; };
 		5179C25C1AEB823100DDD499 /* WBProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBProfileViewController.h; sourceTree = "<group>"; };
 		5179C25D1AEB823100DDD499 /* WBProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBProfileViewController.m; sourceTree = "<group>"; };
 		5179C25F1AEB8AA800DDD499 /* WBDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBDiscoverViewController.h; sourceTree = "<group>"; };
@@ -200,6 +203,8 @@
 			children = (
 				517E4B751AEA829A00E88344 /* WBHomeViewController.h */,
 				517E4B761AEA829A00E88344 /* WBHomeViewController.m */,
+				51429DCE1B6DB620004DB912 /* WBMyCell.h */,
+				51429DCF1B6DB620004DB912 /* WBMyCell.m */,
 				517E4B771AEA829A00E88344 /* WBHomeViewController.xib */,
 			);
 			path = Home;
@@ -381,6 +386,7 @@
 				510775851AE9EF0A0072A913 /* UIView+Extension.m in Sources */,
 				517E4B6E1AEA7E9100E88344 /* UIBarButtonItem+Extension.m in Sources */,
 				510775841AE9EF0A0072A913 /* main.m in Sources */,
+				51429DD01B6DB620004DB912 /* WBMyCell.m in Sources */,
 				5179C2611AEB8AA800DDD499 /* WBDiscoverViewController.m in Sources */,
 				517E4B781AEA829A00E88344 /* WBHomeViewController.m in Sources */,
 				517E4B6B1AEA7E5800E88344 /* WBTabBarController.m in Sources */,
