@@ -11,6 +11,7 @@
 #import "WBOAuthViewController.h"
 #import "WBAccount.h"
 #import "WBAccountManager.h"
+#import "AFNetWorking.h"
 
 @interface AppDelegate ()
 
@@ -20,6 +21,29 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    NSURL *baseURL = [NSURL URLWithString:@"http://www.baidu.com/"];
+    AFHTTPRequestOperationManager *manager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:baseURL];
+    
+    NSOperationQueue *operationQueue = manager.operationQueue;
+    [manager.reachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        switch (status) {
+            case AFNetworkReachabilityStatusReachableViaWWAN:
+            case AFNetworkReachabilityStatusReachableViaWiFi:
+                 NSLog(@"有网络");
+                [operationQueue setSuspended:NO];
+                break;
+            case AFNetworkReachabilityStatusNotReachable:
+            default:
+                NSLog(@"无网络");
+                [operationQueue setSuspended:YES];
+                break;
+        }
+    }];
+    
+    [manager.reachabilityManager startMonitoring];
+    
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     WBAccount *account = [WBAccountManager account];

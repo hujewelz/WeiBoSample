@@ -27,13 +27,23 @@ static NSString *identifer = @"Cell";
     
     //设置tabbar上的文字
     self.tabBarItem.badgeValue = @"10";
+    
+    
 }
 
+#warning 根据文字计算文字大小
 /**
  NSString *str = @"收获地址:浪费了的疯了疯了短发短发了收到了丰富的丰富的方法奋斗奋斗方法";
  UIFont *font = [UIFont systemFontOfSize:14];
- CGSize size = CGSizeMake(320, 2000);
+ CGSize size = CGSizeMake(320, MAXFLOAT);
  CGRect lablelRect = [str boundingRectWithSize:size options:(NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading) attributes:[NSDictionary dictionaryWithObject:font forKey:NSFontAttributeName] context:nil];
+ 
+ 
+ 2.
+ NSString *a = @"";
+ NSMutableDictionary *atb = [NSMutableDictionary dictionary];
+ atb[NSFontAttributeName] = ;
+ CGSize size = [a sizeWithAttributes:atb];
  */
 
 
@@ -46,7 +56,6 @@ static NSString *identifer = @"Cell";
 //}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    NSLog(@"numberOfRowsInSection");
     return 20;
 }
 
@@ -62,7 +71,6 @@ static NSString *identifer = @"Cell";
 #pragma mark - Table view delegate
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"heightForRowAtIndexPath");
     return 60;
 }
 
