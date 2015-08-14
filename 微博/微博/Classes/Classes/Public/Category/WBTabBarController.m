@@ -12,6 +12,7 @@
 #import "WBProfileViewController.h"
 #import "WBDiscoverViewController.h"
 #import "WBTabBar.h"
+#import "WBComposeViewController.h"
 
 @interface WBTabBarController ()
 
@@ -28,9 +29,9 @@
     UIViewController *vc2 = [[UIViewController alloc] init];
     [self addChildViewController:vc2 withTitle:@"消息" image:@"tabbar_message_center" andSelectedImage:@"tabbar_message_center_selected"];
     
-//    UIViewController *vc3 = [[UIViewController alloc] init];
-//    [self addChildViewController:vc3 withTitle:nil image:@"tabbar_compose_background_icon_add" andSelectedImage:@"tabbar_compose_background_icon_add"];
-//    
+    UIViewController *vc3 = [[WBComposeViewController alloc] init];
+    [self addChildViewController:vc3 withTitle:nil image:@"tabbar_compose_background_icon_add" andSelectedImage:@"tabbar_compose_background_icon_add"];
+//
     UIViewController *vc4 = [[WBDiscoverViewController alloc] init];
     [self addChildViewController:vc4 withTitle:@"发现" image:@"tabbar_discover" andSelectedImage:@"tabbar_discover_selected"];
     
@@ -38,8 +39,8 @@
     [self addChildViewController:vc5 withTitle:@"我" image:@"tabbar_profile" andSelectedImage:@"tabbar_profile_selected"];
     
     //添加中间按钮
-    WBTabBar *tabBar = [[WBTabBar alloc] init];
-    [self setValue:tabBar forKeyPath:@"tabBar"];
+//    WBTabBar *tabBar = [[WBTabBar alloc] init];
+//    [self setValue:tabBar forKeyPath:@"tabBar"];
     
 }
 

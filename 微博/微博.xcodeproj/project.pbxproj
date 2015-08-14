@@ -11,6 +11,7 @@
 		510775841AE9EF0A0072A913 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5107757C1AE9EF0A0072A913 /* main.m */; };
 		510775851AE9EF0A0072A913 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5107757F1AE9EF0A0072A913 /* UIView+Extension.m */; };
 		5116BAA41B6C78DC006548E9 /* WBOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5116BAA31B6C78DC006548E9 /* WBOAuthViewController.m */; };
+		5117F4D21B7E273400687794 /* WBComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5117F4D11B7E273400687794 /* WBComposeViewController.m */; };
 		511CF9F51B758FEF00C191A9 /* WBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 511CF9F41B758FEF00C191A9 /* WBTabBar.m */; };
 		512772A31B6CEE3B00B0E15C /* WBAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 512772A21B6CEE3B00B0E15C /* WBAccount.m */; };
 		512772A61B6CF49200B0E15C /* WBAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 512772A51B6CF49200B0E15C /* WBAccountManager.m */; };
@@ -50,6 +51,8 @@
 		5107757F1AE9EF0A0072A913 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		5116BAA21B6C78DC006548E9 /* WBOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBOAuthViewController.h; sourceTree = "<group>"; };
 		5116BAA31B6C78DC006548E9 /* WBOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBOAuthViewController.m; sourceTree = "<group>"; };
+		5117F4D01B7E273400687794 /* WBComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WBComposeViewController.h; path = ../WBComposeViewController.h; sourceTree = "<group>"; };
+		5117F4D11B7E273400687794 /* WBComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WBComposeViewController.m; path = ../WBComposeViewController.m; sourceTree = "<group>"; };
 		511CF9F31B758FEF00C191A9 /* WBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTabBar.h; sourceTree = "<group>"; };
 		511CF9F41B758FEF00C191A9 /* WBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTabBar.m; sourceTree = "<group>"; };
 		512772A11B6CEE3B00B0E15C /* WBAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAccount.h; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 		510775711AE9EF0A0072A913 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5117F4D01B7E273400687794 /* WBComposeViewController.h */,
+				5117F4D11B7E273400687794 /* WBComposeViewController.m */,
 				5116BAA11B6C78BD006548E9 /* OAuth */,
 				517E4B721AEA825300E88344 /* Home */,
 				517E4B701AEA825300E88344 /* Add */,
@@ -466,6 +471,7 @@
 				510775831AE9EF0A0072A913 /* AppDelegate.m in Sources */,
 				512772A61B6CF49200B0E15C /* WBAccountManager.m in Sources */,
 				512772A31B6CEE3B00B0E15C /* WBAccount.m in Sources */,
+				5117F4D21B7E273400687794 /* WBComposeViewController.m in Sources */,
 				517E4B6A1AEA7E5800E88344 /* WBNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
