@@ -74,6 +74,22 @@ static NSString *identifer = @"Cell";
     return 60;
 }
 
+// 右边索引的标题数组
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
+    NSMutableArray *array = [NSMutableArray array];
+    for(int section='A';section<='Z';section++)
+    {
+        [array addObject:[NSString stringWithFormat:@"%c",section]];
+    }
+    return array;
+}
+// 自定义索引与数组的对应关系
+- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
+{
+    return (index+1==26)?0:(index+1);
+}
+
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
     //    scrollView == self.tableView == self.view

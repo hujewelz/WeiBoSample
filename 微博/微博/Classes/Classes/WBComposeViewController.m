@@ -7,6 +7,7 @@
 //
 
 #import "WBComposeViewController.h"
+#import "WBPlacehodelerTextView.h"
 
 @interface WBComposeViewController ()
 
@@ -21,7 +22,17 @@
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"取消" style:UIBarButtonItemStyleDone target:self action:@selector(cancle)];
     
-    
+    [self setupTextView];
+}
+
+- (void)setupTextView {
+    WBPlacehodelerTextView *textView = [[WBPlacehodelerTextView alloc] initWithFrame:self.view.bounds];
+    UIView *input = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, 44)];
+    input.backgroundColor = [UIColor redColor];
+    textView.inputAccessoryView = input;
+    textView.placeholder = @"发微博...";
+    textView.placeholderColor = [UIColor lightGrayColor];
+    [self.view addSubview:textView];
 }
 
 - (void)cancle {

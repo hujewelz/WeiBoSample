@@ -25,6 +25,7 @@
 		517E4B781AEA829A00E88344 /* WBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 517E4B761AEA829A00E88344 /* WBHomeViewController.m */; };
 		517E4B791AEA829A00E88344 /* WBHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 517E4B771AEA829A00E88344 /* WBHomeViewController.xib */; };
 		51A4661E1B76CA4F00CD80B3 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A4661D1B76CA4F00CD80B3 /* UIImage+Extension.m */; };
+		51DE5E161B8028A0001D2C6A /* WBPlacehodelerTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DE5E151B8028A0001D2C6A /* WBPlacehodelerTextView.m */; };
 		51E547D21AE8ED56003B534C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E547D11AE8ED56003B534C /* Images.xcassets */; };
 		51E547D51AE8ED56003B534C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51E547D31AE8ED56003B534C /* LaunchScreen.xib */; };
 		51E547E11AE8ED57003B534C /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E547E01AE8ED57003B534C /* __Tests.m */; };
@@ -79,6 +80,8 @@
 		517E4B771AEA829A00E88344 /* WBHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBHomeViewController.xib; sourceTree = "<group>"; };
 		51A4661C1B76CA4F00CD80B3 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		51A4661D1B76CA4F00CD80B3 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		51DE5E141B8028A0001D2C6A /* WBPlacehodelerTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBPlacehodelerTextView.h; sourceTree = "<group>"; };
+		51DE5E151B8028A0001D2C6A /* WBPlacehodelerTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBPlacehodelerTextView.m; sourceTree = "<group>"; };
 		51E547C11AE8ED56003B534C /* 微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E547C51AE8ED56003B534C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51E547D11AE8ED56003B534C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 				517E4B691AEA7E5800E88344 /* WBTabBarController.m */,
 				511CF9F31B758FEF00C191A9 /* WBTabBar.h */,
 				511CF9F41B758FEF00C191A9 /* WBTabBar.m */,
+				51DE5E141B8028A0001D2C6A /* WBPlacehodelerTextView.h */,
+				51DE5E151B8028A0001D2C6A /* WBPlacehodelerTextView.m */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -456,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51DE5E161B8028A0001D2C6A /* WBPlacehodelerTextView.m in Sources */,
 				5179C2641AEBC6BE00DDD499 /* WBSearchBar.m in Sources */,
 				510775851AE9EF0A0072A913 /* UIView+Extension.m in Sources */,
 				517E4B6E1AEA7E9100E88344 /* UIBarButtonItem+Extension.m in Sources */,
