@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5152D6D51BAE253300312774 /* HWComposeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5152D6D21BAE253300312774 /* HWComposeToolbar.m */; };
+		5152D6D61BAE253300312774 /* HWEmotionKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5152D6D41BAE253300312774 /* HWEmotionKeyboard.m */; };
+		5152D6DB1BAE29C000312774 /* HWEmotionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5152D6D81BAE29C000312774 /* HWEmotionListView.m */; };
+		5152D6DC1BAE29C000312774 /* HWEmotionTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5152D6DA1BAE29C000312774 /* HWEmotionTabBar.m */; };
+		5152D6DF1BAE401E00312774 /* WBFileKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5152D6DE1BAE401E00312774 /* WBFileKeyboard.m */; };
 		51DE5E471B80BDC5001D2C6A /* WBComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DE5E1C1B80BDC5001D2C6A /* WBComposeViewController.m */; };
 		51DE5E481B80BDC5001D2C6A /* WBDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DE5E221B80BDC5001D2C6A /* WBDiscoverViewController.m */; };
 		51DE5E491B80BDC5001D2C6A /* WBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DE5E281B80BDC5001D2C6A /* WBHomeViewController.m */; };
@@ -45,6 +50,16 @@
 /* Begin PBXFileReference section */
 		2A8025B3626F7F20BFECD8F1 /* Pods-微博.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-微博.release.xcconfig"; path = "Pods/Target Support Files/Pods-微博/Pods-微博.release.xcconfig"; sourceTree = "<group>"; };
 		4F99E2AAFFBA89928C6EF56C /* libPods-微博.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-微博.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5152D6D11BAE253300312774 /* HWComposeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWComposeToolbar.h; sourceTree = "<group>"; };
+		5152D6D21BAE253300312774 /* HWComposeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWComposeToolbar.m; sourceTree = "<group>"; };
+		5152D6D31BAE253300312774 /* HWEmotionKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWEmotionKeyboard.h; sourceTree = "<group>"; };
+		5152D6D41BAE253300312774 /* HWEmotionKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWEmotionKeyboard.m; sourceTree = "<group>"; };
+		5152D6D71BAE29C000312774 /* HWEmotionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWEmotionListView.h; sourceTree = "<group>"; };
+		5152D6D81BAE29C000312774 /* HWEmotionListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWEmotionListView.m; sourceTree = "<group>"; };
+		5152D6D91BAE29C000312774 /* HWEmotionTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWEmotionTabBar.h; sourceTree = "<group>"; };
+		5152D6DA1BAE29C000312774 /* HWEmotionTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWEmotionTabBar.m; sourceTree = "<group>"; };
+		5152D6DD1BAE401E00312774 /* WBFileKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBFileKeyboard.h; sourceTree = "<group>"; };
+		5152D6DE1BAE401E00312774 /* WBFileKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBFileKeyboard.m; sourceTree = "<group>"; };
 		517E4B6F1AEA7FFF00E88344 /* weibo.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weibo.pch; sourceTree = "<group>"; };
 		51DE5E1B1B80BDC5001D2C6A /* WBComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBComposeViewController.h; sourceTree = "<group>"; };
 		51DE5E1C1B80BDC5001D2C6A /* WBComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBComposeViewController.m; sourceTree = "<group>"; };
@@ -162,6 +177,16 @@
 		51DE5E1E1B80BDC5001D2C6A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5152D6D11BAE253300312774 /* HWComposeToolbar.h */,
+				5152D6D21BAE253300312774 /* HWComposeToolbar.m */,
+				5152D6D31BAE253300312774 /* HWEmotionKeyboard.h */,
+				5152D6D41BAE253300312774 /* HWEmotionKeyboard.m */,
+				5152D6DD1BAE401E00312774 /* WBFileKeyboard.h */,
+				5152D6DE1BAE401E00312774 /* WBFileKeyboard.m */,
+				5152D6D71BAE29C000312774 /* HWEmotionListView.h */,
+				5152D6D81BAE29C000312774 /* HWEmotionListView.m */,
+				5152D6D91BAE29C000312774 /* HWEmotionTabBar.h */,
+				5152D6DA1BAE29C000312774 /* HWEmotionTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -542,8 +567,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				51DE5E4F1B80BDC5001D2C6A /* WBNavigationController.m in Sources */,
+				5152D6D51BAE253300312774 /* HWComposeToolbar.m in Sources */,
+				5152D6DC1BAE29C000312774 /* HWEmotionTabBar.m in Sources */,
+				5152D6DB1BAE29C000312774 /* HWEmotionListView.m in Sources */,
 				51DE5E4B1B80BDC5001D2C6A /* WBMyCell.m in Sources */,
 				51DE5E511B80BDC5001D2C6A /* WBPlacehodelerTextView.m in Sources */,
+				5152D6DF1BAE401E00312774 /* WBFileKeyboard.m in Sources */,
 				51DE5E631B80BEAF001D2C6A /* WBAccount.m in Sources */,
 				51DE5E521B80BDC5001D2C6A /* WBSearchBar.m in Sources */,
 				51DE5E4D1B80BDC5001D2C6A /* WBProfileViewController.m in Sources */,
@@ -557,6 +586,7 @@
 				51DE5E481B80BDC5001D2C6A /* WBDiscoverViewController.m in Sources */,
 				51DE5E641B80BEAF001D2C6A /* WBAccountManager.m in Sources */,
 				51DE5E471B80BDC5001D2C6A /* WBComposeViewController.m in Sources */,
+				5152D6D61BAE253300312774 /* HWEmotionKeyboard.m in Sources */,
 				51DE5E581B80BE72001D2C6A /* main.m in Sources */,
 				51DE5E4C1B80BDC5001D2C6A /* WBOAuthViewController.m in Sources */,
 			);

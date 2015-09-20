@@ -27,7 +27,8 @@ static NSString *identifer = @"Cell";
     
     //设置tabbar上的文字
     self.tabBarItem.badgeValue = @"10";
-    
+    self.tableView.separatorInset = UIEdgeInsetsMake(0, 15, 0, 15);
+    //self.tableView.separatorColor = [UIColor redColor];
     
 }
 
@@ -64,6 +65,7 @@ static NSString *identifer = @"Cell";
     WBMyCell *cell = [tableView dequeueReusableCellWithIdentifier:identifer forIndexPath:indexPath];
     
     cell.textLabel.text = [NSString stringWithFormat:@"%zd", indexPath.row];
+   // cell.separatorInset = UIEdgeInsetsMake(0, 15, 0, 15);
     
     return cell;
 }
